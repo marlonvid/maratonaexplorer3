@@ -1,0 +1,88 @@
+/* GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body { 
+    background-color: #FFFFFF;
+    font-family: 'Squada One', cursive;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  /* HEADER */
+  header {
+    padding: 32px 0;
+  
+    max-width: 300px;
+    margin: 0px auto;
+    text-align: center;
+  }
+  header h1 {
+    margin-bottom: 4px;
+    font-size: 60px;
+    text-align: center;
+    line-height: 50px;
+  }
+  
+  header h1 span {
+    color: #2DC73D;
+  }
+  
+  header p{
+      color: rgba(0, 0, 0, 0.7);
+      font-size: 14px;
+      line-height: 21px;
+  }
+  
+  /* SECTION */
+  
+  section {
+    margin-bottom: 24px;
+  }
+  
+  section {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  section h2{
+    background-color: #014DFF;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 24px;
+  }
+  
+  /* LISTA */
+  ul li {
+    margin-bottom: 16px;
+    display: flex;
+  
+  }
+  li .details{
+    max-width: 240px;
+  }
+  
+  .details h3{
+    margin-bottom: 8px;
+    line-height: 19px;
+  }
+  
+    .details p{
+      color: rgba(0, 0, 0, 0.7);
+      font-size: 14px;
+      line-height: 21px;
+    }
+  
+  /*  FONTES */
+  h1, h2, h3, .price {
+    font-family: 'Squada One', cursive;
+    text-transform: uppercase;
+    color:#EFC52E
+  }
+  
+  
+  
